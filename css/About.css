@@ -1,0 +1,49 @@
+  
+.main{
+    text-align: center;
+    width: 1000px;
+    padding:15px ;
+    margin-top: 3px;
+    font-size: 20px;
+    -webkit-box-flex: 1;
+    margin-left:  15pc;
+   perspective: 700px;    
+}
+.pargragh {
+    
+    text-overflow: ellipsis;
+    flex-wrap: wrap;
+    padding: 15px;
+    font-display: 1;
+    text-align: left;
+    transition: all .5s ease-in-out; 
+}
+.pargragh:hover{
+     transform: translateZ(100px);
+     background-color: rgb(207, 185, 153);
+}
+#sec-header{
+    margin: 5px;
+    color: rgb(92, 83, 7);
+    font-weight: bolder;
+}
+.headers{
+    font-size:25px;
+    color: rgb(126, 92, 5);
+    width: max-content;
+    font-variant-caps: titling-caps;
+    text-shadow:5px  5px 5px rgb(215, 216, 188);
+}
+#image{
+    display: inline-flex;
+    padding: 15px;
+
+}
+.pic img{
+    
+    border-radius:5%;
+    width: 1000px;
+   
+    padding: 10px;
+}
+
